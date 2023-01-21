@@ -1,0 +1,190 @@
+/* the styles for the elements */
+*{
+	margin: 0;
+	padding: 0;
+}
+article{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: #800000 2px;
+	border-bottom: solid #800000 2px;
+
+}
+html {
+	background-color: white;
+}
+header {
+	border-bottom: #931420 3px solid;
+	border-top: #931420 3px solid;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg , #f6bb73 0%,  #f6bb73 30%,white 50%,  #f6bb73 80%,  #f6bb73 100%);
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	margin: 0 auto;
+	border: #931420 3px solid;
+	background-color: #fffded;
+	width: 800px;
+}
+section{
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+aside{
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+a:hover {
+	font-style: italic;
+}
+blockquote{
+	font-style: italic;
+}
+h1{
+	font-size: 150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin: 0;
+}
+h2 {
+	font-size: 170%;
+	color: #800000;
+}
+h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+
+}
+main h2{
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+main h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+main img{
+	padding-bottom: 1em;
+}
+main p{
+	padding-bottom: .5em;
+}
+
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+ }
+
+main ul{
+	padding-left: 1.25em;
+	padding-bottom: .25em;
+  }
+
+main li{
+	padding-bottom: .35em;
+}
+main section ul li{
+	list-style-type: circle;
+}
+aside h3{
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+aside img{
+	padding-bottom: 1em;
+}
+article h2{
+	padding-top: 0;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+article img{
+	padding: 0;
+	float: right;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	border: solid black 1px;
+}
+#nav_menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+ul#nav_menu li {
+	float: left;
+	width: 20%;
+	background-color: #800000;
+}
+ul#nav_menu a{
+	display: block;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	text-decoration: none;
+}
+.current {
+	color: yellow;
+}
+
+.white {
+	color: white;
+}
+ul#nav_menu ul{
+	display: none;
+	position: absolute;
+	list-style-type: none;
+}
+ul#nav_menu ul li{
+	float: none;
+	width: 115%
+}
+ul#nav_menu li:hover > ul {
+	display: block;        /* Display the submenu on hover of the li element */
+}
+ul#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	color:white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer {
+	border-bottom: #931420 3px solid;
+	border-top: #931420 3px solid;
+	background-color: #931420;
+	clear: both;
+}
